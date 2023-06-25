@@ -7,14 +7,42 @@
     <title>Your GOTY</title>
 </head>
 <body>
-    <h1>What game inspired you the most?</h1>
-    <div>
-        <img src="https://cdn2.tfx.company/images/clickwallpapers-elden-ring-game-wallpaper-in-4k-img1.jpg" alt="bg" width="1920" height="1080">
-    </div>
+    <nav>
+        <span class="abt-goty"><a href="first.html" target="_blank"> About GOTY </a></span>
+        <span class="your-goty"><a href="second.html" target="_blank"> Your GOTY </a> </span>
+        <span class="mentions">Honourable mentions</span>
+        <span class="2023">2023 Predictions</span>
+    </nav>
+    <img src="https://cdn2.tfx.company/images/clickwallpapers-elden-ring-game-wallpaper-in-4k-img1.jpg" alt="bg">
     <form action="/form-handling-url" mehtod="post">
         <fieldset>
-            <legend>Choose your favorite game</legend>
-            
+            <legend>What are your thoughts on GOTY?</legend>
+            <div>
+                <label for="preffered2022">Which game should have won 2022?</label>
+                <input type="text" id="preffered2022" name="preffered-game2022">
+            </div>
+            <div>
+                <label for="preffered2021">Which game should have won 2021?</label>
+                <input type="text" id="preffered2021" name="preffered-game2021">
+            </div>
+            <div>
+                <label for="preffered2020">Which game should have won 2020?</label>
+                <input type="text" id="preffered2020" name="preffered-game2020">
+            </div>
+            <p>Which is your favorite out of the 3 winners?</p>
+            <div>
+                <label for="favorite">Elden Ring</label>
+                <input type="checkbox" id="eldenring" name="eldenring">
+            </div>
+            <div>
+                <label for="favorite">It takes two</label>
+                <input type="checkbox" id="itt" name="itt">
+            </div>
+            <div>
+                <label for="favorite">The last of us</label>
+                <input type="checkbox" id="tlou" name="tlou">
+            </div>
+            <button type="submit">Submit</button>
         </fieldset>
 
     </form>
