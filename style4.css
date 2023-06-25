@@ -1,0 +1,26 @@
+nav {
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(182, 194, 203);
+    padding: 3%;
+    margin: 0%;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    box-shadow: 15px 15px 20px 10px black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight:bolder;
+    text-transform: uppercase;
+    color: black;
+    position: sticky;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color: rgb(165, 68, 57);
+}
