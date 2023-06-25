@@ -1,0 +1,148 @@
+body{
+    margin: 0%;
+    background-color: rgb(132, 45, 45);
+    font-family: Helvetica, sans-serif;
+    margin-bottom: 5%;
+    width: 100%;
+    height: 100%;
+}
+nav {
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(182, 194, 203);
+    padding: 3%;
+    margin: 0%;
+    font-family: Helvetica, sans-serif;
+    font-size: 20px;
+    box-shadow: 15px 15px 20px 10px black;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight:bolder;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color: rgb(165, 68, 57);
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    color:aliceblue;
+    background-color: black;
+    padding: 5%;
+    border:0px;
+    font-family: Helvetica, sans-serif;
+
+}
+.goty{
+    color: salmon;
+    font-family: Helvetica, sans-serif;
+
+}
+/*html{
+    background-image: url(https://i.pinimg.com/originals/f2/f2/ff/f2f2ff5f5078acbd7d4acb0d337c99d5.jpg);
+
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode: ;
+}
+*/
+.what-goty{
+    padding: 5%;
+    color: white;
+    font-size: 20px;
+    box-shadow: 10px 10px 50px 5px black;
+}
+.elden-ring {
+    display: flex;
+    flex-direction: column;
+    padding: 0% 0% 1% 0%;
+    text-align: left;
+    background-color: rgb(182, 194, 203);
+    border-radius: 20px;
+    text-align:center;
+    box-shadow: 10px 10px 50px 5px black;
+    border-radius: 10%;
+
+}
+
+.elden-ring span{
+    margin-top: 8%;
+    padding: 0% 1%;
+
+}
+
+.elden-ring img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.games-title{
+    text-align: center;
+    padding: 2%;
+    color: white;
+}
+.games{
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    color: black;
+    font-weight: bolder;    
+    font-size: 20px;
+}
+.it-takes-two{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    padding: 0% 0% 1% 0%;
+    text-align: left;
+    background-color: rgb(182, 194, 203);
+    border-radius: 20px;
+    text-align:center;
+    box-shadow: 10px 10px 50px 5px black;
+    border-radius: 10%;
+
+}
+
+.it-takes-two span{
+    margin-top: 8%;
+    padding: 0% 1%;
+}
+
+.it-takes-two img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.tlou{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    padding: 0% 0% 1% 0%;
+    text-align: left;
+    background-color: rgb(182, 194, 203);
+    border-radius: 20px;
+    text-align:center;
+    box-shadow: 10px 10px 50px 5px black;
+    border-radius: 10%;
+
+}
+
+.tlou span{
+    margin-top: 5%;
+    padding: 0% 1%;
+
+}
+
+.tlou img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
